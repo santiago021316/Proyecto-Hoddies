@@ -1,0 +1,222 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+  }
+ 
+  /* mainly use of  container*/
+
+  .container{
+    max-width: 1000px;
+    width:800px;
+    height: 500px;
+    justify-content: center;
+    margin-top: 20% ;
+    display:grid;
+    }
+/*  -------------header and navbar --------------*/
+
+
+#header{
+  display:flex;
+  position:fixed;
+  background-color: white ;
+  width: 100%;
+  top: 0;
+  left: 0;
+
+}
+
+
+.logoAndTitle{
+    margin: 5px 10px;
+    display:flex;
+}
+
+.title{
+   padding: 4% 0 0 0;
+   color:gray;
+   font-size:30px;
+   
+}
+
+#header-img{
+    height: 100px;
+}
+
+.title{
+    margin: 10px 10px;;
+}
+
+#nav-bar{
+    
+    display:block;
+    margin: 10px 0px 0px 200px;
+    padding:10px;
+    width: 50%;
+   
+}
+
+
+
+.nav-link{
+    display: inline-block;
+    padding:2%;
+    margin-left: 43px;
+   
+   
+}
+
+a{
+    color:gray;
+    font-size:20px;
+    transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
+}
+
+
+a:visited{
+  text-decoration:none;
+  color:gray;
+}
+
+a:hover{
+    text-decoration: none;
+    color:white;
+    background-color: gray;
+    border-radius: 4px;
+    height: 10px;
+    box-shadow: inset 200px 0 0 0 #404446;
+}
+
+/*----------- seccion feature---------------*/
+
+#star{
+    display: grid;
+    margin-top: 100px;
+  
+
+}
+
+#email{
+    display: grid;
+    height:60% ;
+    width: 30%;
+    margin: 10px auto;
+    border-radius:5px;
+    border-top-style:hidden;
+    border-right-style:hidden;
+    border-left-style:hidden;
+    
+} 
+
+#email:hover{
+    border-top-style:hidden;
+    border-right-style:hidden;
+    border-left-style:hidden;
+}
+
+
+    
+
+
+#submit{
+    height:50% ;
+    width: 8%;
+    margin: 0  45%;
+    font-size: 15px;
+    background-color: white;
+    border-radius:5px;
+    border-top-style:hidden;
+    border-right-style:hidden;
+    border-left-style:hidden;
+} 
+
+.title2{
+    padding: 4% 0 0 0;
+    color:gray;
+    text-align: center;
+    
+ }
+
+ .text{
+    margin-top: 40px;
+ }
+
+
+
+
+/*----------- seccion star 2---------------*/
+
+
+
+
+
+.material-symbols-outlined {
+margin: auto 0;
+}
+
+
+.grid{
+display:flex;
+margin: 40px;
+}
+
+.down{
+    display:grid;
+    margin-left: 100px;;
+}
+
+h2{
+    font-size:20px;
+}
+
+
+
+
+/* section diseños ala venta*/
+
+.container-one{
+    max-width: 1000px;
+    width:1000px;
+    height: 500px;
+    justify-content: center;
+    margin: 20px auto ;
+    display:flex;
+   
+}
+
+.minContainer{
+
+width:300px;
+height: 450px;
+margin:auto;
+padding-left:35px;
+display:grid;
+border:black solid 1px;
+}
+
+.nav-linkone{
+    margin-left:70px;
+}
+
+
+
+
+/*  @meadi query*/
+
+@media(max-width: 1400px){
+
+
+   #nav-bar{
+    
+    display:grid;
+   }
+
+   
+}
